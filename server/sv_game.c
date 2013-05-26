@@ -200,6 +200,7 @@ void PF_Configstring (int index, char *val)
 	// change the string in sv
 	strcpy (sv.configstrings[index], val);
 
+
 	if (sv.state != ss_loading)
 	{	// send the update to everyone
 		SZ_Clear (&sv.multicast);

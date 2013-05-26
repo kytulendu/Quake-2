@@ -8,21 +8,21 @@
 CFG=game - Win32 Debug Alpha
 !MESSAGE This is not a valid makefile. To build this project using NMAKE,
 !MESSAGE use the Export Makefile command and run
-!MESSAGE 
+!MESSAGE
 !MESSAGE NMAKE /f "game.mak".
-!MESSAGE 
+!MESSAGE
 !MESSAGE You can specify a configuration when running NMAKE
 !MESSAGE by defining the macro CFG on the command line. For example:
-!MESSAGE 
+!MESSAGE
 !MESSAGE NMAKE /f "game.mak" CFG="game - Win32 Debug Alpha"
-!MESSAGE 
+!MESSAGE
 !MESSAGE Possible choices for configuration are:
-!MESSAGE 
+!MESSAGE
 !MESSAGE "game - Win32 Release" (based on "Win32 (x86) Dynamic-Link Library")
 !MESSAGE "game - Win32 Debug" (based on "Win32 (x86) Dynamic-Link Library")
 !MESSAGE "game - Win32 Debug Alpha" (based on "Win32 (ALPHA) Dynamic-Link Library")
 !MESSAGE "game - Win32 Release Alpha" (based on "Win32 (ALPHA) Dynamic-Link Library")
-!MESSAGE 
+!MESSAGE
 
 # Begin Project
 # PROP AllowPerConfigDependencies 0
@@ -150,7 +150,7 @@ LINK32=link.exe
 # ADD LINK32 kernel32.lib user32.lib gdi32.lib /nologo /base:"0x20000000" /subsystem:windows /dll /machine:ALPHA /out:"..\ReleaseAXP/gameaxp.dll"
 # SUBTRACT LINK32 /debug
 
-!ENDIF 
+!ENDIF
 
 # Begin Target
 
@@ -175,7 +175,7 @@ DEP_CPP_G_AI_=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -183,9 +183,9 @@ DEP_CPP_G_AI_=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -202,7 +202,7 @@ DEP_CPP_G_CHA=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -210,9 +210,9 @@ DEP_CPP_G_CHA=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -230,7 +230,7 @@ DEP_CPP_G_CMD=\
 	".\game.h"\
 	".\m_player.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -239,9 +239,9 @@ DEP_CPP_G_CMD=\
 	".\game.h"\
 	".\m_player.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -258,7 +258,7 @@ DEP_CPP_G_COM=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -266,9 +266,9 @@ DEP_CPP_G_COM=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -285,7 +285,7 @@ DEP_CPP_G_FUN=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -293,9 +293,9 @@ DEP_CPP_G_FUN=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -312,7 +312,7 @@ DEP_CPP_G_ITE=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -320,9 +320,9 @@ DEP_CPP_G_ITE=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -339,7 +339,7 @@ DEP_CPP_G_MAI=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -347,9 +347,9 @@ DEP_CPP_G_MAI=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -366,7 +366,7 @@ DEP_CPP_G_MIS=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -374,9 +374,9 @@ DEP_CPP_G_MIS=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -393,7 +393,7 @@ DEP_CPP_G_MON=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -401,9 +401,9 @@ DEP_CPP_G_MON=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -420,7 +420,7 @@ DEP_CPP_G_PHY=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -428,9 +428,9 @@ DEP_CPP_G_PHY=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -447,7 +447,7 @@ DEP_CPP_G_SAV=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -455,9 +455,9 @@ DEP_CPP_G_SAV=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -474,7 +474,7 @@ DEP_CPP_G_SPA=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -482,9 +482,9 @@ DEP_CPP_G_SPA=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -501,7 +501,7 @@ DEP_CPP_G_SVC=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -509,9 +509,9 @@ DEP_CPP_G_SVC=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -528,7 +528,7 @@ DEP_CPP_G_TAR=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -536,9 +536,9 @@ DEP_CPP_G_TAR=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -555,7 +555,7 @@ DEP_CPP_G_TRI=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -563,9 +563,9 @@ DEP_CPP_G_TRI=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -582,7 +582,7 @@ DEP_CPP_G_TUR=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -590,9 +590,9 @@ DEP_CPP_G_TUR=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -609,7 +609,7 @@ DEP_CPP_G_UTI=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -617,9 +617,9 @@ DEP_CPP_G_UTI=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -636,7 +636,7 @@ DEP_CPP_G_WEA=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -644,9 +644,9 @@ DEP_CPP_G_WEA=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -664,7 +664,7 @@ DEP_CPP_M_ACT=\
 	".\game.h"\
 	".\m_actor.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -673,9 +673,9 @@ DEP_CPP_M_ACT=\
 	".\game.h"\
 	".\m_actor.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -693,7 +693,7 @@ DEP_CPP_M_BER=\
 	".\game.h"\
 	".\m_berserk.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -702,9 +702,9 @@ DEP_CPP_M_BER=\
 	".\game.h"\
 	".\m_berserk.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -722,7 +722,7 @@ DEP_CPP_M_BOS=\
 	".\game.h"\
 	".\m_boss2.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -731,9 +731,9 @@ DEP_CPP_M_BOS=\
 	".\game.h"\
 	".\m_boss2.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -751,7 +751,7 @@ DEP_CPP_M_BOSS=\
 	".\game.h"\
 	".\m_boss32.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -760,9 +760,9 @@ DEP_CPP_M_BOSS=\
 	".\game.h"\
 	".\m_boss32.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -780,7 +780,7 @@ DEP_CPP_M_BOSS3=\
 	".\game.h"\
 	".\m_boss31.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -789,9 +789,9 @@ DEP_CPP_M_BOSS3=\
 	".\game.h"\
 	".\m_boss31.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -809,7 +809,7 @@ DEP_CPP_M_BOSS32=\
 	".\game.h"\
 	".\m_boss32.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -818,9 +818,9 @@ DEP_CPP_M_BOSS32=\
 	".\game.h"\
 	".\m_boss32.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -838,7 +838,7 @@ DEP_CPP_M_BRA=\
 	".\game.h"\
 	".\m_brain.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -847,9 +847,9 @@ DEP_CPP_M_BRA=\
 	".\game.h"\
 	".\m_brain.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -867,7 +867,7 @@ DEP_CPP_M_CHI=\
 	".\game.h"\
 	".\m_chick.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -876,9 +876,9 @@ DEP_CPP_M_CHI=\
 	".\game.h"\
 	".\m_chick.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -893,15 +893,15 @@ SOURCE=.\m_flash.c
 
 DEP_CPP_M_FLA=\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
 DEP_CPP_M_FLA=\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -919,7 +919,7 @@ DEP_CPP_M_FLI=\
 	".\game.h"\
 	".\m_flipper.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -928,9 +928,9 @@ DEP_CPP_M_FLI=\
 	".\game.h"\
 	".\m_flipper.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -948,7 +948,7 @@ DEP_CPP_M_FLO=\
 	".\game.h"\
 	".\m_float.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -957,9 +957,9 @@ DEP_CPP_M_FLO=\
 	".\game.h"\
 	".\m_float.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -977,7 +977,7 @@ DEP_CPP_M_FLY=\
 	".\game.h"\
 	".\m_flyer.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -986,9 +986,9 @@ DEP_CPP_M_FLY=\
 	".\game.h"\
 	".\m_flyer.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1006,7 +1006,7 @@ DEP_CPP_M_GLA=\
 	".\game.h"\
 	".\m_gladiator.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -1015,9 +1015,9 @@ DEP_CPP_M_GLA=\
 	".\game.h"\
 	".\m_gladiator.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1035,7 +1035,7 @@ DEP_CPP_M_GUN=\
 	".\game.h"\
 	".\m_gunner.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -1044,9 +1044,9 @@ DEP_CPP_M_GUN=\
 	".\game.h"\
 	".\m_gunner.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1064,7 +1064,7 @@ DEP_CPP_M_HOV=\
 	".\game.h"\
 	".\m_hover.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -1073,9 +1073,9 @@ DEP_CPP_M_HOV=\
 	".\game.h"\
 	".\m_hover.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1093,7 +1093,7 @@ DEP_CPP_M_INF=\
 	".\game.h"\
 	".\m_infantry.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -1102,9 +1102,9 @@ DEP_CPP_M_INF=\
 	".\game.h"\
 	".\m_infantry.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1122,7 +1122,7 @@ DEP_CPP_M_INS=\
 	".\game.h"\
 	".\m_insane.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -1131,9 +1131,9 @@ DEP_CPP_M_INS=\
 	".\game.h"\
 	".\m_insane.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1151,7 +1151,7 @@ DEP_CPP_M_MED=\
 	".\game.h"\
 	".\m_medic.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -1160,9 +1160,9 @@ DEP_CPP_M_MED=\
 	".\game.h"\
 	".\m_medic.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1179,7 +1179,7 @@ DEP_CPP_M_MOV=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -1187,9 +1187,9 @@ DEP_CPP_M_MOV=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1207,7 +1207,7 @@ DEP_CPP_M_MUT=\
 	".\game.h"\
 	".\m_mutant.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -1216,9 +1216,9 @@ DEP_CPP_M_MUT=\
 	".\game.h"\
 	".\m_mutant.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1236,7 +1236,7 @@ DEP_CPP_M_PAR=\
 	".\game.h"\
 	".\m_parasite.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -1245,9 +1245,9 @@ DEP_CPP_M_PAR=\
 	".\game.h"\
 	".\m_parasite.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1265,7 +1265,7 @@ DEP_CPP_M_SOL=\
 	".\game.h"\
 	".\m_soldier.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -1274,9 +1274,9 @@ DEP_CPP_M_SOL=\
 	".\game.h"\
 	".\m_soldier.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1294,7 +1294,7 @@ DEP_CPP_M_SUP=\
 	".\game.h"\
 	".\m_supertank.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -1303,9 +1303,9 @@ DEP_CPP_M_SUP=\
 	".\game.h"\
 	".\m_supertank.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1323,7 +1323,7 @@ DEP_CPP_M_TAN=\
 	".\game.h"\
 	".\m_tank.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -1332,9 +1332,9 @@ DEP_CPP_M_TAN=\
 	".\game.h"\
 	".\m_tank.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1352,7 +1352,7 @@ DEP_CPP_P_CLI=\
 	".\game.h"\
 	".\m_player.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -1361,9 +1361,9 @@ DEP_CPP_P_CLI=\
 	".\game.h"\
 	".\m_player.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1380,7 +1380,7 @@ DEP_CPP_P_HUD=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -1388,9 +1388,9 @@ DEP_CPP_P_HUD=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1407,7 +1407,7 @@ DEP_CPP_P_TRA=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -1415,9 +1415,9 @@ DEP_CPP_P_TRA=\
 	".\g_local.h"\
 	".\game.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1435,7 +1435,7 @@ DEP_CPP_P_VIE=\
 	".\game.h"\
 	".\m_player.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -1444,9 +1444,9 @@ DEP_CPP_P_VIE=\
 	".\game.h"\
 	".\m_player.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1464,7 +1464,7 @@ DEP_CPP_P_WEA=\
 	".\game.h"\
 	".\m_player.h"\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
@@ -1473,9 +1473,9 @@ DEP_CPP_P_WEA=\
 	".\game.h"\
 	".\m_player.h"\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1490,15 +1490,15 @@ SOURCE=.\q_shared.c
 
 DEP_CPP_Q_SHA=\
 	".\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "game - Win32 Release Alpha"
 
 DEP_CPP_Q_SHA=\
 	".\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # End Group

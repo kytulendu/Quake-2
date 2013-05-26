@@ -8,21 +8,21 @@
 CFG=ref_gl - Win32 Debug Alpha
 !MESSAGE This is not a valid makefile. To build this project using NMAKE,
 !MESSAGE use the Export Makefile command and run
-!MESSAGE 
+!MESSAGE
 !MESSAGE NMAKE /f "ref_gl.mak".
-!MESSAGE 
+!MESSAGE
 !MESSAGE You can specify a configuration when running NMAKE
 !MESSAGE by defining the macro CFG on the command line. For example:
-!MESSAGE 
+!MESSAGE
 !MESSAGE NMAKE /f "ref_gl.mak" CFG="ref_gl - Win32 Debug Alpha"
-!MESSAGE 
+!MESSAGE
 !MESSAGE Possible choices for configuration are:
-!MESSAGE 
+!MESSAGE
 !MESSAGE "ref_gl - Win32 Release" (based on "Win32 (x86) Dynamic-Link Library")
 !MESSAGE "ref_gl - Win32 Debug" (based on "Win32 (x86) Dynamic-Link Library")
 !MESSAGE "ref_gl - Win32 Debug Alpha" (based on "Win32 (ALPHA) Dynamic-Link Library")
 !MESSAGE "ref_gl - Win32 Release Alpha" (based on "Win32 (ALPHA) Dynamic-Link Library")
-!MESSAGE 
+!MESSAGE
 
 # Begin Project
 # PROP AllowPerConfigDependencies 0
@@ -152,7 +152,7 @@ LINK32=link.exe
 # ADD LINK32 kernel32.lib user32.lib gdi32.lib winmm.lib /nologo /subsystem:windows /dll /machine:ALPHA
 # SUBTRACT LINK32 /debug
 
-!ENDIF 
+!ENDIF
 
 # Begin Target
 
@@ -181,11 +181,11 @@ DEP_CPP_GL_DR=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GL_DR=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_gl - Win32 Release Alpha"
 
@@ -197,13 +197,13 @@ DEP_CPP_GL_DR=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GL_DR=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -224,11 +224,11 @@ DEP_CPP_GL_IM=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GL_IM=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_gl - Win32 Release Alpha"
 
@@ -240,13 +240,13 @@ DEP_CPP_GL_IM=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GL_IM=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -267,11 +267,11 @@ DEP_CPP_GL_LI=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GL_LI=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_gl - Win32 Release Alpha"
 
@@ -283,13 +283,13 @@ DEP_CPP_GL_LI=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GL_LI=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -312,11 +312,11 @@ DEP_CPP_GL_ME=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GL_ME=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_gl - Win32 Release Alpha"
 
@@ -330,13 +330,13 @@ DEP_CPP_GL_ME=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GL_ME=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -357,11 +357,11 @@ DEP_CPP_GL_MO=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GL_MO=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_gl - Win32 Release Alpha"
 
@@ -373,13 +373,13 @@ DEP_CPP_GL_MO=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GL_MO=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -400,11 +400,11 @@ DEP_CPP_GL_RM=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GL_RM=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_gl - Win32 Release Alpha"
 
@@ -416,13 +416,13 @@ DEP_CPP_GL_RM=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GL_RM=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -443,11 +443,11 @@ DEP_CPP_GL_RMI=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GL_RMI=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_gl - Win32 Release Alpha"
 
@@ -459,13 +459,13 @@ DEP_CPP_GL_RMI=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GL_RMI=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -486,11 +486,11 @@ DEP_CPP_GL_RS=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GL_RS=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_gl - Win32 Release Alpha"
 
@@ -502,13 +502,13 @@ DEP_CPP_GL_RS=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GL_RS=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -530,11 +530,11 @@ DEP_CPP_GL_WA=\
 	".\gl_model.h"\
 	".\qgl.h"\
 	".\warpsin.h"\
-	
+
 NODEP_CPP_GL_WA=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_gl - Win32 Release Alpha"
 
@@ -547,13 +547,13 @@ DEP_CPP_GL_WA=\
 	".\gl_model.h"\
 	".\qgl.h"\
 	".\warpsin.h"\
-	
+
 NODEP_CPP_GL_WA=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -576,11 +576,11 @@ DEP_CPP_GLW_I=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GLW_I=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_gl - Win32 Release Alpha"
 
@@ -594,13 +594,13 @@ DEP_CPP_GLW_I=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_GLW_I=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -615,15 +615,15 @@ SOURCE=..\game\q_shared.c
 
 DEP_CPP_Q_SHA=\
 	"..\game\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_gl - Win32 Release Alpha"
 
 DEP_CPP_Q_SHA=\
 	"..\game\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -641,7 +641,7 @@ DEP_CPP_Q_SHW=\
 	"..\qcommon\qcommon.h"\
 	"..\qcommon\qfiles.h"\
 	"..\win32\winquake.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_gl - Win32 Release Alpha"
 
@@ -650,9 +650,9 @@ DEP_CPP_Q_SHW=\
 	"..\qcommon\qcommon.h"\
 	"..\qcommon\qfiles.h"\
 	"..\win32\winquake.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -674,11 +674,11 @@ DEP_CPP_QGL_W=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_QGL_W=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_gl - Win32 Release Alpha"
 
@@ -691,13 +691,13 @@ DEP_CPP_QGL_W=\
 	".\gl_local.h"\
 	".\gl_model.h"\
 	".\qgl.h"\
-	
+
 NODEP_CPP_QGL_W=\
 	".\L\gl.h"\
 	".\L\glu.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # End Group

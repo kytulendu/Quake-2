@@ -8,21 +8,21 @@
 CFG=ref_soft - Win32 Debug Alpha
 !MESSAGE This is not a valid makefile. To build this project using NMAKE,
 !MESSAGE use the Export Makefile command and run
-!MESSAGE 
+!MESSAGE
 !MESSAGE NMAKE /f "ref_soft.mak".
-!MESSAGE 
+!MESSAGE
 !MESSAGE You can specify a configuration when running NMAKE
 !MESSAGE by defining the macro CFG on the command line. For example:
-!MESSAGE 
+!MESSAGE
 !MESSAGE NMAKE /f "ref_soft.mak" CFG="ref_soft - Win32 Debug Alpha"
-!MESSAGE 
+!MESSAGE
 !MESSAGE Possible choices for configuration are:
-!MESSAGE 
+!MESSAGE
 !MESSAGE "ref_soft - Win32 Release" (based on "Win32 (x86) Dynamic-Link Library")
 !MESSAGE "ref_soft - Win32 Debug" (based on "Win32 (x86) Dynamic-Link Library")
 !MESSAGE "ref_soft - Win32 Debug Alpha" (based on "Win32 (ALPHA) Dynamic-Link Library")
 !MESSAGE "ref_soft - Win32 Release Alpha" (based on "Win32 (ALPHA) Dynamic-Link Library")
-!MESSAGE 
+!MESSAGE
 
 # Begin Project
 # PROP AllowPerConfigDependencies 0
@@ -153,7 +153,7 @@ LINK32=link.exe
 # ADD LINK32 kernel32.lib user32.lib gdi32.lib winmm.lib /nologo /subsystem:windows /dll /machine:ALPHA
 # SUBTRACT LINK32 /debug
 
-!ENDIF 
+!ENDIF
 
 # Begin Target
 
@@ -172,7 +172,7 @@ SOURCE=..\game\q_shared.c
 
 DEP_CPP_Q_SHA=\
 	"..\game\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -180,15 +180,15 @@ DEP_CPP_Q_SHA=\
 
 DEP_CPP_Q_SHA=\
 	"..\game\q_shared.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
 DEP_CPP_Q_SHA=\
 	"..\game\q_shared.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -202,7 +202,7 @@ DEP_CPP_Q_SHW=\
 	"..\qcommon\qcommon.h"\
 	"..\qcommon\qfiles.h"\
 	"..\win32\winquake.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -213,7 +213,7 @@ DEP_CPP_Q_SHW=\
 	"..\qcommon\qcommon.h"\
 	"..\qcommon\qfiles.h"\
 	"..\win32\winquake.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -222,9 +222,9 @@ DEP_CPP_Q_SHW=\
 	"..\qcommon\qcommon.h"\
 	"..\qcommon\qfiles.h"\
 	"..\win32\winquake.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -240,7 +240,7 @@ DEP_CPP_R_ACL=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -253,7 +253,7 @@ DEP_CPP_R_ACL=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -264,9 +264,9 @@ DEP_CPP_R_ACL=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -305,7 +305,7 @@ InputName=r_aclipa
 
 # PROP Exclude_From_Build 1
 
-!ENDIF 
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -322,7 +322,7 @@ DEP_CPP_R_ALI=\
 	".\anorms.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -336,7 +336,7 @@ DEP_CPP_R_ALI=\
 	".\anorms.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -348,9 +348,9 @@ DEP_CPP_R_ALI=\
 	".\anorms.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -366,7 +366,7 @@ DEP_CPP_R_BSP=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -379,7 +379,7 @@ DEP_CPP_R_BSP=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -390,9 +390,9 @@ DEP_CPP_R_BSP=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -408,7 +408,7 @@ DEP_CPP_R_DRA=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -421,7 +421,7 @@ DEP_CPP_R_DRA=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -432,9 +432,9 @@ DEP_CPP_R_DRA=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -473,7 +473,7 @@ InputName=r_draw16
 
 # PROP Exclude_From_Build 1
 
-!ENDIF 
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -512,7 +512,7 @@ InputName=r_drawa
 
 # PROP Exclude_From_Build 1
 
-!ENDIF 
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -528,7 +528,7 @@ DEP_CPP_R_EDG=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -541,7 +541,7 @@ DEP_CPP_R_EDG=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -552,9 +552,9 @@ DEP_CPP_R_EDG=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -593,7 +593,7 @@ InputName=r_edgea
 
 # PROP Exclude_From_Build 1
 
-!ENDIF 
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -609,7 +609,7 @@ DEP_CPP_R_IMA=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -622,7 +622,7 @@ DEP_CPP_R_IMA=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -633,9 +633,9 @@ DEP_CPP_R_IMA=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -651,7 +651,7 @@ DEP_CPP_R_LIG=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -664,7 +664,7 @@ DEP_CPP_R_LIG=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -675,9 +675,9 @@ DEP_CPP_R_LIG=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -693,7 +693,7 @@ DEP_CPP_R_MAI=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -706,7 +706,7 @@ DEP_CPP_R_MAI=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -717,9 +717,9 @@ DEP_CPP_R_MAI=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -735,7 +735,7 @@ DEP_CPP_R_MIS=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -748,7 +748,7 @@ DEP_CPP_R_MIS=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -759,9 +759,9 @@ DEP_CPP_R_MIS=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -777,7 +777,7 @@ DEP_CPP_R_MOD=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -790,7 +790,7 @@ DEP_CPP_R_MOD=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -801,9 +801,9 @@ DEP_CPP_R_MOD=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -819,7 +819,7 @@ DEP_CPP_R_PAR=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -832,7 +832,7 @@ DEP_CPP_R_PAR=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -843,9 +843,9 @@ DEP_CPP_R_PAR=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -861,7 +861,7 @@ DEP_CPP_R_POL=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -874,7 +874,7 @@ DEP_CPP_R_POL=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -885,9 +885,9 @@ DEP_CPP_R_POL=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -922,7 +922,7 @@ InputName=r_polysa
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
-!ENDIF 
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -940,7 +940,7 @@ DEP_CPP_R_POLY=\
 	".\r_local.h"\
 	".\r_model.h"\
 	".\rand1k.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -955,7 +955,7 @@ DEP_CPP_R_POLY=\
 	".\r_local.h"\
 	".\r_model.h"\
 	".\rand1k.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -968,9 +968,9 @@ DEP_CPP_R_POLY=\
 	".\r_local.h"\
 	".\r_model.h"\
 	".\rand1k.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -986,7 +986,7 @@ DEP_CPP_R_RAS=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -999,7 +999,7 @@ DEP_CPP_R_RAS=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -1010,9 +1010,9 @@ DEP_CPP_R_RAS=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1028,7 +1028,7 @@ DEP_CPP_R_SCA=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -1041,7 +1041,7 @@ DEP_CPP_R_SCA=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -1052,9 +1052,9 @@ DEP_CPP_R_SCA=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1093,7 +1093,7 @@ InputName=r_scana
 
 # PROP Exclude_From_Build 1
 
-!ENDIF 
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1132,7 +1132,7 @@ InputName=r_spr8
 
 # PROP Exclude_From_Build 1
 
-!ENDIF 
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1148,7 +1148,7 @@ DEP_CPP_R_SPR=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -1161,7 +1161,7 @@ DEP_CPP_R_SPR=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -1172,9 +1172,9 @@ DEP_CPP_R_SPR=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1190,7 +1190,7 @@ DEP_CPP_R_SUR=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -1203,7 +1203,7 @@ DEP_CPP_R_SUR=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -1214,9 +1214,9 @@ DEP_CPP_R_SUR=\
 	"..\qcommon\qfiles.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1255,7 +1255,7 @@ InputName=r_surf8
 
 # PROP Exclude_From_Build 1
 
-!ENDIF 
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1294,7 +1294,7 @@ InputName=r_varsa
 
 # PROP Exclude_From_Build 1
 
-!ENDIF 
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1311,7 +1311,7 @@ DEP_CPP_RW_DD=\
 	"..\win32\rw_win.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -1325,7 +1325,7 @@ DEP_CPP_RW_DD=\
 	"..\win32\rw_win.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -1337,9 +1337,9 @@ DEP_CPP_RW_DD=\
 	"..\win32\rw_win.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1356,7 +1356,7 @@ DEP_CPP_RW_DI=\
 	"..\win32\rw_win.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -1370,7 +1370,7 @@ DEP_CPP_RW_DI=\
 	"..\win32\rw_win.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -1382,9 +1382,9 @@ DEP_CPP_RW_DI=\
 	"..\win32\rw_win.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # Begin Source File
@@ -1402,7 +1402,7 @@ DEP_CPP_RW_IM=\
 	"..\win32\winquake.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Debug"
 
@@ -1417,7 +1417,7 @@ DEP_CPP_RW_IM=\
 	"..\win32\winquake.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
+
 
 !ELSEIF  "$(CFG)" == "ref_soft - Win32 Release Alpha"
 
@@ -1430,9 +1430,9 @@ DEP_CPP_RW_IM=\
 	"..\win32\winquake.h"\
 	".\r_local.h"\
 	".\r_model.h"\
-	
 
-!ENDIF 
+
+!ENDIF
 
 # End Source File
 # End Group
