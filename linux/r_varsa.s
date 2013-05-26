@@ -22,7 +22,7 @@ float_point5:	.single	0.5
 
 .globl	fp_16, fp_64k, fp_1m, fp_64kx64k
 .globl	fp_1m_minus_1
-.globl	fp_8 
+.globl	fp_8
 fp_1m:			.single	1048576.0
 fp_1m_minus_1:	.single	1048575.0
 fp_64k:			.single	65536.0
@@ -213,7 +213,7 @@ entryvec_table:	.long	0, Entry2_8, Entry3_8, Entry4_8
 	.extern Spr8Entry7_8
 	.extern Spr8Entry8_8
 #endif
-	
+
 .globl spr8entryvec_table
 spr8entryvec_table:	.long	0, Spr8Entry2_8, Spr8Entry3_8, Spr8Entry4_8
 					.long	Spr8Entry5_8, Spr8Entry6_8, Spr8Entry7_8, Spr8Entry8_8

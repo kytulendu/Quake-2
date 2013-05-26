@@ -343,7 +343,7 @@ spanpackage_t_sfrac				equ		16
 spanpackage_t_tfrac				equ		20
 spanpackage_t_light				equ		24
 spanpackage_t_zi				equ		28
-spanpackage_t_size				equ		32 
+spanpackage_t_size				equ		32
 
 ; edge_t structure
 ; !!! if this is changed, it must be changed in r_shared.h too !!!

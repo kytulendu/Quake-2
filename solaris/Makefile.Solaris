@@ -174,10 +174,10 @@ $(BUILDDIR)/client/glob.o :       $(SOLARIS_DIR)/glob.c
 $(BUILDDIR)/client/net_udp.o :    $(SOLARIS_DIR)/net_udp.c
 	$(DO_CC)
 
-$(BUILDDIR)/client/cd_null.o     : $(NULL_DIR)/cd_null.c    
+$(BUILDDIR)/client/cd_null.o     : $(NULL_DIR)/cd_null.c
 	$(DO_CC)
 
-$(BUILDDIR)/client/cl_null.o     : $(NULL_DIR)/cl_null.c    
+$(BUILDDIR)/client/cl_null.o     : $(NULL_DIR)/cl_null.c
 	$(DO_CC)
 
 #############################################################################

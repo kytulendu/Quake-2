@@ -8,14 +8,14 @@
 # Probably requires GNU make
 #
 # This builds the gamei386.so for Linux based on the q2source_12_11.zip
-# release.  
+# release.
 # Put his Makefile in the game subdirectory you get when you unzip
 # q2source_12_11.zip.
 #
 # There are two compiler errors you'll get, the following fixes
 # are necessary:
 #
-# In g_local.h (around line 828), you must change the 
+# In g_local.h (around line 828), you must change the
 #    typedef struct g_client_s { ... } gclient_t;
 # to just:
 #    struct g_client_s { ... };
@@ -39,7 +39,7 @@ BASE_CFLAGS=-Dstricmp=strcasecmp
 CFLAGS=$(BASE_CFLAGS) -m486 -O6 -ffast-math -funroll-loops \
 	-fomit-frame-pointer -fexpensive-optimizations -malign-loops=2 \
 	-malign-jumps=2 -malign-functions=2
-#use these when debugging 
+#use these when debugging
 #CFLAGS=$(BASE_CFLAGS) -g
 
 OBJDIR=linux
@@ -69,82 +69,82 @@ GAME_OBJS = \
 game$(ARCH).$(SHLIBEXT) : $(GAME_OBJS)
 	$(CC) $(CFLAGS) $(SHLIBLDFLAGS) -o $@ $(GAME_OBJS)
 
-$(OBJDIR)/g_ai.o       : g_ai.c     
+$(OBJDIR)/g_ai.o       : g_ai.c
 	$(DO_CC)
 
-$(OBJDIR)/p_client.o   : p_client.c 
+$(OBJDIR)/p_client.o   : p_client.c
 	$(DO_CC)
 
-$(OBJDIR)/g_svcmds.o   : g_svcmds.c 
+$(OBJDIR)/g_svcmds.o   : g_svcmds.c
 	$(DO_CC)
 
-$(OBJDIR)/g_cmds.o     : g_cmds.c   
+$(OBJDIR)/g_cmds.o     : g_cmds.c
 	$(DO_CC)
 
-$(OBJDIR)/g_combat.o   : g_combat.c 
+$(OBJDIR)/g_combat.o   : g_combat.c
 	$(DO_CC)
 
-$(OBJDIR)/g_func.o     : g_func.c   
+$(OBJDIR)/g_func.o     : g_func.c
 	$(DO_CC)
 
-$(OBJDIR)/g_items.o    : g_items.c  
+$(OBJDIR)/g_items.o    : g_items.c
 	$(DO_CC)
 
-$(OBJDIR)/g_main.o     : g_main.c   
+$(OBJDIR)/g_main.o     : g_main.c
 	$(DO_CC)
 
-$(OBJDIR)/g_misc.o     : g_misc.c   
+$(OBJDIR)/g_misc.o     : g_misc.c
 	$(DO_CC)
 
 $(OBJDIR)/g_monster.o  : g_monster.c
 	$(DO_CC)
 
-$(OBJDIR)/g_phys.o     : g_phys.c   
+$(OBJDIR)/g_phys.o     : g_phys.c
 	$(DO_CC)
 
-$(OBJDIR)/g_save.o     : g_save.c   
+$(OBJDIR)/g_save.o     : g_save.c
 	$(DO_CC)
 
-$(OBJDIR)/g_spawn.o    : g_spawn.c  
+$(OBJDIR)/g_spawn.o    : g_spawn.c
 	$(DO_CC)
 
-$(OBJDIR)/g_target.o   : g_target.c 
+$(OBJDIR)/g_target.o   : g_target.c
 	$(DO_CC)
 
 $(OBJDIR)/g_trigger.o  : g_trigger.c
 	$(DO_CC)
 
-$(OBJDIR)/g_utils.o    : g_utils.c  
+$(OBJDIR)/g_utils.o    : g_utils.c
 	$(DO_CC)
 
-$(OBJDIR)/g_weapon.o   : g_weapon.c 
+$(OBJDIR)/g_weapon.o   : g_weapon.c
 	$(DO_CC)
 
-$(OBJDIR)/m_move.o     : m_move.c   
+$(OBJDIR)/m_move.o     : m_move.c
 	$(DO_CC)
 
-$(OBJDIR)/p_hud.o      : p_hud.c    
+$(OBJDIR)/p_hud.o      : p_hud.c
 	$(DO_CC)
 
-$(OBJDIR)/p_trail.o    : p_trail.c  
+$(OBJDIR)/p_trail.o    : p_trail.c
 	$(DO_CC)
 
-$(OBJDIR)/p_view.o     : p_view.c   
+$(OBJDIR)/p_view.o     : p_view.c
 	$(DO_CC)
 
-$(OBJDIR)/p_weapon.o   : p_weapon.c 
+$(OBJDIR)/p_weapon.o   : p_weapon.c
 	$(DO_CC)
 
-$(OBJDIR)/q_shared.o   : q_shared.c 
+$(OBJDIR)/q_shared.o   : q_shared.c
 	$(DO_CC)
 
-$(OBJDIR)/g_ctf.o      : g_ctf.c    
+$(OBJDIR)/g_ctf.o      : g_ctf.c
 	$(DO_CC)
 
-$(OBJDIR)/p_menu.o     : p_menu.c   
+$(OBJDIR)/p_menu.o     : p_menu.c
 	$(DO_CC)
 
-$(OBJDIR)/g_chase.o    : g_chase.c  
+$(OBJDIR)/g_chase.o    : g_chase.c
 	$(DO_CC)
 
 #############################################################################

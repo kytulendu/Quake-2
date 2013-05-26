@@ -73,7 +73,7 @@ int keyq_tail=0;
 int config_notify=0;
 int config_notify_width;
 int config_notify_height;
-						      
+
 typedef unsigned short PIXEL;
 
 // Console variables that we need to access from this module
@@ -115,12 +115,12 @@ static void Force_CenterView_f (void)
 	in_state->viewangles[PITCH] = 0;
 }
 
-static void RW_IN_MLookDown (void) 
-{ 
-	mlooking = true; 
+static void RW_IN_MLookDown (void)
+{
+	mlooking = true;
 }
 
-static void RW_IN_MLookUp (void) 
+static void RW_IN_MLookUp (void)
 {
 	mlooking = false;
 	in_state->IN_CenterView_fp ();
@@ -167,10 +167,10 @@ IN_Commands
 void RW_IN_Commands (void)
 {
 	int i;
-   
-	if (!mouse_avail) 
+
+	if (!mouse_avail)
 		return;
-   
+
 	for (i=0 ; i<3 ; i++) {
 		if ( (mouse_buttonstate & (1<<i)) && !(mouse_oldbuttonstate & (1<<i)) )
 			in_state->Key_Event_fp (K_MOUSE1 + i, true);
@@ -190,7 +190,7 @@ void RW_IN_Move (usercmd_t *cmd)
 {
 	if (!mouse_avail)
 		return;
-   
+
 	if (m_filter->value)
 	{
 		mouse_x = (mx + old_mouse_x) * 0.5;
@@ -210,13 +210,13 @@ void RW_IN_Move (usercmd_t *cmd)
 	mouse_y *= sensitivity->value;
 
 // add mouse X/Y movement to cmd
-	if ( (*in_state->in_strafe_state & 1) || 
+	if ( (*in_state->in_strafe_state & 1) ||
 		(lookstrafe->value && mlooking ))
 		cmd->sidemove += m_side->value * mouse_x;
 	else
 		in_state->viewangles[YAW] -= m_yaw->value * mouse_x;
 
-	if ( (mlooking || freelook->value) && 
+	if ( (mlooking || freelook->value) &&
 		!(*in_state->in_strafe_state & 1))
 	{
 		in_state->viewangles[PITCH] += m_pitch->value * mouse_y;
@@ -312,7 +312,7 @@ void st2_fixup( XImage *framebuf, int x, int y, int width, int height)
 
 static Cursor CreateNullCursor(Display *display, Window root)
 {
-    Pixmap cursormask; 
+    Pixmap cursormask;
     XGCValues xgc;
     GC gc;
     XColor dummycolour;
@@ -407,8 +407,8 @@ void ResetSharedFrameBuffers(void)
 		x_shminfo[frm].shmaddr =
 			(void *) shmat(x_shminfo[frm].shmid, 0, 0);
 
-		ri.Con_Printf(PRINT_ALL, 
-			"MITSHM shared memory (id=%d, addr=0x%lx)\n", 
+		ri.Con_Printf(PRINT_ALL,
+			"MITSHM shared memory (id=%d, addr=0x%lx)\n",
 			x_shminfo[frm].shmid,
 			(long) x_shminfo[frm].shmaddr);
 
@@ -513,13 +513,13 @@ int XLateKey(XKeyEvent *ev)
 		case XK_Shift_L:
 		case XK_Shift_R:	key = K_SHIFT;		break;
 
-		case XK_Execute: 
-		case XK_Control_L: 
+		case XK_Execute:
+		case XK_Control_L:
 		case XK_Control_R:	key = K_CTRL;		 break;
 
-		case XK_Alt_L:	
-		case XK_Meta_L: 
-		case XK_Alt_R:	
+		case XK_Alt_L:
+		case XK_Meta_L:
+		case XK_Alt_R:
 		case XK_Meta_R: key = K_ALT;			break;
 
 		case XK_KP_Begin: key = K_KP_5;	break;
@@ -560,7 +560,7 @@ int XLateKey(XKeyEvent *ev)
 			if (key >= 'A' && key <= 'Z')
 				key = key - 'A' + 'a';
 			break;
-	} 
+	}
 
 	return key;
 }
@@ -569,7 +569,7 @@ void GetEvent(void)
 {
 	XEvent x_event;
 	int b;
-   
+
 	XNextEvent(x_disp, &x_event);
 	switch(x_event.type) {
 	case KeyPress:
@@ -590,7 +590,7 @@ void GetEvent(void)
 
 			/* move the mouse to the window center again */
 			XSelectInput(x_disp,x_win, STD_EVENT_MASK & ~PointerMotionMask);
-			XWarpPointer(x_disp,None,x_win,0,0,0,0, 
+			XWarpPointer(x_disp,None,x_win,0,0,0,0,
 				(vid.width/2),(vid.height/2));
 			XSelectInput(x_disp,x_win, STD_EVENT_MASK);
 		} else {
@@ -624,7 +624,7 @@ void GetEvent(void)
 		if (b>=0)
 			mouse_buttonstate &= ~(1<<b);
 		break;
-	
+
 	case ConfigureNotify:
 		config_notify_width = x_event.xconfigure.width;
 		config_notify_height = x_event.xconfigure.height;
@@ -635,7 +635,7 @@ void GetEvent(void)
 		if (doShm && x_event.type == x_shmeventtype)
 			oktodraw = true;
 	}
-   
+
 	if (old_windowed_mouse != _windowed_mouse->value) {
 		old_windowed_mouse = _windowed_mouse->value;
 
@@ -774,10 +774,10 @@ static qboolean SWimp_InitGraphics( qboolean fullscreen )
 	   int attribmask = CWEventMask  | CWColormap | CWBorderPixel;
 	   XSetWindowAttributes attribs;
 	   Colormap tmpcmap;
-	   
+
 	   tmpcmap = XCreateColormap(x_disp, XRootWindow(x_disp,
 							 x_visinfo->screen), x_vis, AllocNone);
-	   
+
 	   attribs.event_mask = STD_EVENT_MASK;
 	   attribs.border_pixel = 0;
 	   attribs.colormap = tmpcmap;
@@ -905,14 +905,14 @@ void SWimp_EndFrame (void)
 	{
 
 		if (x_visinfo->depth != 8)
-			st2_fixup( x_framebuffer[current_framebuffer], 
-				0, 0, vid.width, vid.height);	
+			st2_fixup( x_framebuffer[current_framebuffer],
+				0, 0, vid.width, vid.height);
 		if (!XShmPutImage(x_disp, x_win, x_gc,
 			x_framebuffer[current_framebuffer], 0, 0,
 			0, 0, vid.width, vid.height, True))
 				Sys_Error("VID_Update: XShmPutImage failed\n");
 		oktodraw = false;
-		while (!oktodraw) 
+		while (!oktodraw)
 			GetEvent();
 		current_framebuffer = !current_framebuffer;
 		vid.buffer = x_framebuffer[current_framebuffer]->data;
@@ -921,7 +921,7 @@ void SWimp_EndFrame (void)
 	else
 	{
 		if (x_visinfo->depth != 8)
-			st2_fixup( x_framebuffer[current_framebuffer], 
+			st2_fixup( x_framebuffer[current_framebuffer],
 				0, 0, vid.width, vid.height);
 		XPutImage(x_disp, x_win, x_gc, x_framebuffer[0],
 			0, 0, 0, 0, vid.width, vid.height);
@@ -973,7 +973,7 @@ void SWimp_SetPalette( const unsigned char *palette )
 
     if ( !palette )
         palette = ( const unsigned char * ) sw_state.currentpalette;
- 
+
 	for(i=0;i<256;i++)
 		st2d_8to16table[i]= xlib_rgb(palette[i*4],
 			palette[i*4+1],palette[i*4+2]);
@@ -1076,7 +1076,7 @@ void KBD_Update(void)
 // get events from x server
 	if (x_disp)
 	{
-		while (XPending(x_disp)) 
+		while (XPending(x_disp))
 			GetEvent();
 		while (keyq_head != keyq_tail)
 		{

@@ -9,7 +9,7 @@
 #if	id386
 
 // !!! if this is changed, it must be changed in d_polyse.c too !!!
-#define DPS_MAXSPANS			MAXHEIGHT+1	
+#define DPS_MAXSPANS			MAXHEIGHT+1
 									// 1 extra for spanpackage that marks end
 
 //#define	SPAN_SIZE	(((DPS_MAXSPANS + 1 + ((CACHE_SIZE - 1) / spanpackage_t_size)) + 1) * spanpackage_t_size)
@@ -661,7 +661,7 @@ LDraw:
 	jnge	LNoDraw
 
 //		int		pix;
-//		
+//
 //		*zbuf = z;
 	movw	%dx,(%eax,%ebp,2)
 

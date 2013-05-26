@@ -2033,7 +2033,7 @@ qboolean SNDDMA_Init(void)
 	byte	*buf;
         int	bufsize;
   	int	progress, oldprogress;
-        
+
     shm = &sn;
     shm->channels = 2;
     shm->samplebits = 16;
@@ -2081,14 +2081,14 @@ qboolean SNDDMA_Init(void)
    //
    // find a buffer crossing point for pos testing
    //
-   
+
    ntsoundBytesProcessed(devPort,task_self(),&oldprogress);
    do
        {
        ntsoundBytesProcessed(devPort,task_self(),&progress);
      } while (progress == oldprogress);
    snd_basetime = Sys_DoubleTime() - progress/(11025*2);
- 
+
    return true;
 }
 
@@ -2113,12 +2113,12 @@ int SNDDMA_GetDMAPos(void)
     progress += 2048;
     progress >>= 1;
 #else
-    
+
  progress = (Sys_DoubleTime() - snd_basetime)*11025*2;
  progress += 8192;
  progress &= ~1;
 #endif
- 
+
     progress &= (shm->samples-1);
 
     return progress;

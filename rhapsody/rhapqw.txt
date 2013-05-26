@@ -4,7 +4,7 @@ The sound is a bit lagged and will likely drift on longer games, because I am us
 
 There is no assembly language in yet, and it is still just using DPS to draw, so it isn't real fast yet.  Run it on a ppro with a write combining video driver.
 
-If you ever lose your mouse cursor inapropriately due to the game messing up, if you can restart QuakeWorld, you can type "showmouse" to bump the visibility counter by one. 
+If you ever lose your mouse cursor inapropriately due to the game messing up, if you can restart QuakeWorld, you can type "showmouse" to bump the visibility counter by one.
 
 You should eb able to connect to any QuakeWorld server, but you will have to do it with manual connect commands at the console, because we don't have either qspy or a browser plugin (yet) for openstep to find servers.
 

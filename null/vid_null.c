@@ -115,7 +115,7 @@ void	VID_Init (void)
 
     if (re.api_version != API_VERSION)
         Com_Error (ERR_FATAL, "Re has incompatible api_version");
-    
+
         // call the init function
     if (re.Init (NULL, NULL) == -1)
 		Com_Error (ERR_FATAL, "Couldn't start refresh");

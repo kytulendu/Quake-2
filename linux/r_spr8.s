@@ -363,7 +363,7 @@ LClampReentry3:
 
 	subl	s,%ebp
 	subl	t,%ecx
-	
+
 //
 // set up advancetable
 //
@@ -623,7 +623,7 @@ LClampReentry4:
 	ja		LClampHigh5
 LClampReentry5:
 
-	cmpl	$1,%ecx			// don't bother 
+	cmpl	$1,%ecx			// don't bother
 	je		LOnlyOneStep	// if two pixels in segment, there's only one step,
 							//  of the segment length
 	subl	s,%eax

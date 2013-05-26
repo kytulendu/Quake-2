@@ -27,13 +27,13 @@ SHAREDFILES = $(ODIR)/q_shared
 
 _next:
 	make "CFLAGS = -c -Wall -g -O" "ODIR = next"
-	
+
 _irix:
 	make "CFLAGS = -c -O2 -Xcpluscomm -woff 513 -woff 594 -woff 596" "LDFLAGS = -Ofast=ip32_10k" "ODIR = irix"
-	
+
 _irixdebug:
 	make "CFLAGS = -c -O2 -g -Xcpluscomm" "LDFLAGS = -g" "ODIR = irix"
-		
+
 clean:
 	rm -f next/*.o next/$(EXEBASE)
 	rm -f irix/*.o irix/$(EXEBASE)
@@ -153,7 +153,7 @@ $(ODIR)/snd_mix.o : ../client/snd_mix.c
 $(ODIR)/view.o : ../client/view.c
 	cc $(CFLAGS) -E $? | tr -d '\015' > /tmp/temp.i
 	cc $(CFLAGS) -o $@ /tmp/temp.i
-	
+
 #----------------------------------------------------------------------
 
 $(ODIR)/cmd.o : ../qcommon/cmd.c
@@ -303,6 +303,6 @@ $(ODIR)/r_sprite.o : ../ref_soft/r_sprite.c
 $(ODIR)/r_surf.o : ../ref_soft/r_surf.c
 	cc $(CFLAGS) -E $? | tr -d '\015' > /tmp/temp.i
 	cc $(CFLAGS) -o $@ /tmp/temp.i
-	
+
 #----------------------------------------------------------------------
 
