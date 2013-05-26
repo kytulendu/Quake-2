@@ -738,7 +738,7 @@ void VID_Init (void)
 #endif
 
 	/* Disable the 3Dfx splash screen */
-	putenv("FX_GLIDE_NO_SPLASH=0");
+//	putenv("FX_GLIDE_NO_SPLASH=0");
 
 	/* Start the graphics mode and load refresh DLL */
 	VID_CheckChanges();
@@ -757,5 +757,3 @@ void VID_Shutdown (void)
 		VID_FreeReflib ();
 	}
 }
-
-
